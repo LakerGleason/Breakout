@@ -117,7 +117,7 @@ public class Breakout extends GraphicsProgram {
         }
 
         // see if we hit something
-        if(obj != null){
+        if(obj != null){getComponentZOrder(this);
 
             // lets see what we hit!
             if(obj instanceof Paddle){
